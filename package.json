@@ -1,0 +1,15 @@
+{
+  "name": "give-a-fuck",
+  "version": "1.0.0",
+  "description": "Give-A-Fuck-O-Meter",
+  "main": "index.js",
+  "dependencies": {
+    "microphone": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
