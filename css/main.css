@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.giveafuckometer
+{
+    width: 399px;
+    height: 310px;
+    background: url('../images/give_a_fuck.png');
+}
+
+.giveafuckometer .needle {
+    width: 23px;
+    height: 145px;
+    background: url('../images/needle.png');
+
+    position: relative;
+    top: 64px;
+    left: 48%;
+
+    transition: all 0.2s;
+
+    -webkit-transform: rotate(20deg);
+    -webkit-transform-origin: bottom;
+    -moz-transform: rotate(20deg);
+    -moz-transform-origin: bottom;
+    -ms-transform: rotate(20deg);
+    -ms-transform-origin: bottom;
+    -o-transform: rotate(20deg);
+    -o-transform-origin: bottom;
+    transform: rotate(20deg);
+    transform-origin: bottom;
+}
