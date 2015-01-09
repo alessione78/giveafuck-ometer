@@ -1,15 +1,24 @@
 {
-  "name": "give-a-fuck",
+  "name": "giveafuck-ometer",
   "version": "1.0.0",
   "description": "Give-A-Fuck-O-Meter",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.10.7",
     "microphone": "^1.0.5"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kilkenny@SIMGroep",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessione78/giveafuck-ometer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alessione78/giveafuck-ometer/issues"
+  },
+  "homepage": "https://github.com/alessione78/giveafuck-ometer"
 }
